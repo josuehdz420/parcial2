@@ -1,0 +1,12 @@
+{
+    "name": "ues/sistema-prestamos",
+    "description": "Sistema de prestamo",
+    "autoload": {
+        "psr-4": {
+            "Prestamos\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

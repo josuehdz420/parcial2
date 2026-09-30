@@ -1,0 +1,10 @@
+
+services:
+  web:
+    build: .
+    container_name: parcial2-php
+    ports:
+      - "8087:80"
+    volumes:
+      - .:/var/www/html
+    restart: unless-stopped
